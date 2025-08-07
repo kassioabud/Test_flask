@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja Virtual Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .produto {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .produto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .produto h3 {
+            margin: 10px 0 5px;
+        }
+
+        .produto p {
+            font-weight: bold;
+            color: green;
+        }
+
+        .produto button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .produto button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minha Loja Online</h1>
+    <p>Os melhores produtos pelos melhores preços</p>
+</header>
+
+<div class="container">
+    <h2>Produtos em destaque</h2>
+    <div class="produtos">
+        <div class="produto">
+            <img src="https://via.placeholder.com/200x150" alt="Produto 1">
+            <h3>Camiseta Básica</h3>
+            <p>R$ 39,90</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200x150" alt="Produto 2">
+            <h3>Tênis Esportivo</h3>
+            <p>R$ 149,90</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200x150" alt="Produto 3">
+            <h3>Relógio Digital</h3>
+            <p>R$ 89,90</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200x150" alt="Produto 4">
+            <h3>Mochila Escolar</h3>
+            <p>R$ 79,90</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Minha Loja Online - Todos os direitos reservados - O QUE ACHOU BAIANO SAFADO
+</footer>
+
+</body>
+</html>
